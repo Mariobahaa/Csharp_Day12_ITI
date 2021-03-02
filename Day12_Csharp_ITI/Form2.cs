@@ -11,17 +11,24 @@ namespace Day12_Csharp_ITI
     public partial class Form2 : Form
     {
         Graphics G;
+        int ballPos;
+        int sign = 1;
 
         public Form2()
         {
             InitializeComponent();
             G = this.CreateGraphics();
+            ballPos = 200;
+            timer1.Start();
 
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-
+            Invalidate();
+            //this.Refresh();
+            ballPos += sign * 25;
+            if (ballPos == 500 || ballPos == 200) sign *= -1;
         }
 
         private void Form2_Paint(object sender, PaintEventArgs e)
@@ -42,6 +49,9 @@ namespace Day12_Csharp_ITI
             G.DrawLine(Pens.DeepPink, 675, 400, 625, 300);
             G.DrawLine(Pens.DeepPink, 600, 350, 650, 350);
 
+
+            G.DrawEllipse(Pens.Black, ballPos, 350, 50, 50);
+            //G.DrawEllipse(Pens.Black, 500, 350, 50, 50);
 
 
         }
