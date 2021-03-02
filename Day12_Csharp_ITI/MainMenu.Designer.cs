@@ -72,7 +72,7 @@ namespace Day12_Csharp_ITI
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(94, 53);
             this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
+            this.button4.Text = "Mickey Mouse";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button5

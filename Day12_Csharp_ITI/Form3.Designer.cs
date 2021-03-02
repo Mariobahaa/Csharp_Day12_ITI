@@ -53,7 +53,9 @@ namespace Day12_Csharp_ITI
             this.MinimumSize = new System.Drawing.Size(850, 500);
             this.Name = "Form3";
             this.Text = "Form3";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form3_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form3_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form3_MouseUp);
             this.ResumeLayout(false);
 
         }
