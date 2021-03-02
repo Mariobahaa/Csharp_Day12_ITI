@@ -26,5 +26,11 @@ namespace Day12_Csharp_ITI
             Form2 frm2 = new Form2();
             frm2.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form3 frm3 = new Form3();
+            frm3.Show();
+        }
     }
 }

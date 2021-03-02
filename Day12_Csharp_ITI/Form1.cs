@@ -49,7 +49,7 @@ namespace Day12_Csharp_ITI
             mouseDown = true;
             var curs = e.Location;
 
-            if (curs.X >= RectLoc.X && curs.X <= RectLoc.X + 100 && curs.Y >= RectLoc.Y && curs.Y <= RectLoc.Y + 100)
+            if (curs.X >= RectLoc.X && curs.X <= RectLoc.X + 100 && curs.Y >= RectLoc.Y && curs.Y <= RectLoc.Y + 100 && e.Button == MouseButtons.Left)
             {
                 PntInside = curs;
             }
@@ -57,7 +57,7 @@ namespace Day12_Csharp_ITI
 
         private void Form1_MouseMove(object sender, MouseEventArgs e) 
         {
-            if (mouseDown)
+            if (mouseDown && e.Button == MouseButtons.Left)
             {
 
                 Invalidate();
