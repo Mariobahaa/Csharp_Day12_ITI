@@ -74,6 +74,7 @@ namespace Day12_Csharp_ITI
             this.button4.TabIndex = 3;
             this.button4.Text = "Mickey Mouse";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -81,8 +82,9 @@ namespace Day12_Csharp_ITI
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(94, 53);
             this.button5.TabIndex = 4;
-            this.button5.Text = "button5";
+            this.button5.Text = "Dialogs";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // MainMenu
             // 

@@ -47,6 +47,7 @@ namespace Day12_Csharp_ITI
                 G.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
                 G.DrawLine(new Pen(this.BackColor), last, e.Location);
                 last = e.Location;
+                
                 //G.FillEllipse(new SolidBrush(this.BackColor), e.X, e.Y, 10, 10);
 
             }

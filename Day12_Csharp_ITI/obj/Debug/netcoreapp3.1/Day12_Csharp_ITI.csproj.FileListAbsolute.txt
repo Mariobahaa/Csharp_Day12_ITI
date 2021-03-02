@@ -16,3 +16,5 @@ E:\My Programs\ITIC#\Day12_Csharp_ITI\Day12_Csharp_ITI\obj\Debug\netcoreapp3.1\D
 E:\My Programs\ITIC#\Day12_Csharp_ITI\Day12_Csharp_ITI\obj\Debug\netcoreapp3.1\Day12_Csharp_ITI.Form2.resources
 E:\My Programs\ITIC#\Day12_Csharp_ITI\Day12_Csharp_ITI\obj\Debug\netcoreapp3.1\Day12_Csharp_ITI.MainMenu.resources
 E:\My Programs\ITIC#\Day12_Csharp_ITI\Day12_Csharp_ITI\obj\Debug\netcoreapp3.1\Day12_Csharp_ITI.Form3.resources
+E:\My Programs\ITIC#\Day12_Csharp_ITI\Day12_Csharp_ITI\obj\Debug\netcoreapp3.1\Day12_Csharp_ITI.Form4.resources
+E:\My Programs\ITIC#\Day12_Csharp_ITI\Day12_Csharp_ITI\obj\Debug\netcoreapp3.1\Day12_Csharp_ITI.Form5.resources
