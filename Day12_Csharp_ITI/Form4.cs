@@ -27,10 +27,26 @@ namespace Day12_Csharp_ITI
             GraphicsPath G = new GraphicsPath();
             G.StartFigure();
             G.AddEllipse(100, 100, 100, 100);
-            G.FillMode = FillMode.Alternate;
+            G.AddEllipse(300, 100, 100, 100);
+            G.AddEllipse(150, 150, 200, 200);
+
+
+            G.FillMode = FillMode.Winding;
             G.AddLine(0, 0, 100, 100);
+            
             G.CloseFigure();
-            Gr.FillPath(new SolidBrush(Color.Black),G);
+            Gr.FillPath(new SolidBrush(Color.Black), G);
+
+            Matrix translateMatrix = new Matrix();
+            translateMatrix.Translate(600, 0);
+            G.Transform(translateMatrix);
+            Gr.FillPath(new SolidBrush(Color.Yellow), G);
+            //////graphicspathiterator it = new graphicspathiterator(g);
+            //////bool a;
+            //////graphicspath n1 = it.next
+           
+
+            // Gr.DrawPath(new Pen(Color.Black),G);
         }
     }
 }
